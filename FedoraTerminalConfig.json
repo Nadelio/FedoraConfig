@@ -1,39 +1,51 @@
 {
-  "default-color" :{
-    "text":"#F5F2A3",
-    "background":"#F5F2A3"
+  "text":{
+    "text-appearance":[80,24],
+    "custom-font":"Source Code Pro"
+    "custom-font-size":12,
+    "cell-spacing":["1.00","1.00"],
+    "allow-blinking-text":"Always",
+    "cursor-shape":"I-Beam",
+    "cursor-blinking":"Enabled",
+    "terminal-bell":true
   },
-  "bold-color":{
-    "text":"#C1BB9B",
-  },
-  "cursor-color":{
-    "text":"#B3B29D",
-    "background":"#B3B29D"
-  },
-  "highlight-color":{
-    "text":"#000000",
-    "background":"#C3C07D"
-  },
-  "color-palette":{
-    "bright":{
-      "black":"#262626",
-      "red":"#7A1A32",
-      "green":"#16C60C",
-      "yellow":"#F1F99A",
-      "blue":"#24499C",
-      "purple":"#7D379C",
-      "cyan":"#84AEB0",
-      "grey":"#D4D4D4"
+  "colors":{
+    "default-color" :{
+      "text":"#F5F2A3",
+      "background":"#F5F2A3"
     },
-    "normal":{
-      "black":"#212121",
-      "red":"#8F0B16",
-      "green":"#13A10E",
-      "yellow":"#C1BA83",
-      "blue":"#001D73",
-      "purple":"#881798",
-      "cyan":"#4E6F8F",
-      "grey":"#ADADAD"
+    "bold-color":{
+      "text":"#C1BB9B",
+    },
+    "cursor-color":{
+      "text":"#B3B29D",
+      "background":"#B3B29D"
+    },
+    "highlight-color":{
+      "text":"#000000",
+      "background":"#C3C07D"
+    },
+    "color-palette":{
+      "bright":{
+        "black":"#262626",
+        "red":"#7A1A32",
+        "green":"#16C60C",
+        "yellow":"#F1F99A",
+        "blue":"#24499C",
+        "purple":"#7D379C",
+        "cyan":"#84AEB0",
+        "grey":"#D4D4D4"
+      },
+      "normal":{
+        "black":"#212121",
+        "red":"#8F0B16",
+        "green":"#13A10E",
+        "yellow":"#C1BA83",
+        "blue":"#001D73",
+        "purple":"#881798",
+        "cyan":"#4E6F8F",
+        "grey":"#ADADAD"
+      }
     }
   }
 }
